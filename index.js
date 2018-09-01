@@ -10,12 +10,22 @@ function theBeatlesPlay(array1,array2){
   return theBeatlesPlayThis;
 }
 
+function johnLennonFacts(array) {
+  let i = 0;
+   while (0 < array.length - 1){
+    console.log(array[i]);
+       i++; 
+  }
+  
+  array.push(array[i] + '!!!');
+  return array;
+}
 
 function iLoveTheBeatles(int) 
 { var newArray = [];
   do {
     newArray.push("I love the Beatles!");
        int++;
-  } while ([int<15]);
+  } while (int<15);
       return newArray;
 }
