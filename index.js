@@ -12,7 +12,7 @@ function theBeatlesPlay(array1,array2){
 
 function johnLennonFacts(array) {
   let i = 0;
-   while (0 < array.length - 1){
+   while (i < array.length - 1){
     console.log(array[i]);
        i++; 
   }
