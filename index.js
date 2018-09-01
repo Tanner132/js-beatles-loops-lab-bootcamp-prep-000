@@ -12,14 +12,13 @@ function theBeatlesPlay(array1,array2){
 
 function johnLennonFacts(array) {
   let i = 0;
+  let lennonFacts= [];
    while (i < array.length - 1){
     console.log(array[i]);
-       array.push(array[i] + '!!!');
+       lennonFacts.push(array[i] + '!!!');
        i++; 
   }
-  
-  array.push(array[i] + '!!!');
-  return array;
+  return lennonFacts;
 }
 
 function iLoveTheBeatles(int) 
